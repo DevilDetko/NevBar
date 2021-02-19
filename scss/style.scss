@@ -1,0 +1,27 @@
+@import "normalize.scss";
+@import "hero";
+@import "header";
+@import "media";
+@import "animations";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;0,900;1,500&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 2rem auto;
+
+  p {
+    margin: 1rem 0;
+  }
+}
